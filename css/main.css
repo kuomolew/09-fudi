@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
 }
 
+
+/* header styling start*/
 header {
     display: flex;
     width: 100%;
@@ -17,6 +19,7 @@ header {
     position: relative;
 }
 
+/* main menu styling start*/
 .menu-bar {
     display: flex;
     flex-direction: row;
@@ -55,6 +58,8 @@ header {
     width: 14px;
     height: 10px;
 }
+/* main menu styling end*/
+
 
 header h2 {
     opacity: 0.7;
@@ -135,7 +140,10 @@ header h1 {
     height: 227px;
     align-self: flex-end;
 }
+/* header styling end */
 
+
+/* triple styling start */
 #triple {
     display: block;
     width: 100%;
@@ -201,7 +209,10 @@ header h1 {
     text-align: center;
     width: 360px;
 }
+/* triple styling finish */
 
+
+/* phone part styling start */
 #iphone {
     display: flex;
     width: 100%;
@@ -271,7 +282,10 @@ header h1 {
 #iphone-text-stores img {
     margin-right: 10px;
 }
+/* phone part styling finish */
 
+
+/* review part styling start */
 #review {
     display: flex;
     flex-direction: column;
@@ -330,7 +344,10 @@ cite::before,
 cite::after {
     content: " - ";
 }
+/* review part styling finish */
 
+
+/* cuisines part styling start */
 #cuisines {
     display: flex;
     height: 615px;
@@ -437,7 +454,11 @@ cite::after {
 #american {
     background-image: url('../img/american.png');
 }
+/* cuisines part styling finish */
 
+
+
+/* numbers part styling start */
 #numbers {
     width: 100%;
     height: 176px;
@@ -473,7 +494,9 @@ cite::after {
     letter-spacing: 0.8px;
     margin-top: 3px;
 }
+/* numbers part styling finish */
 
+/* footer styling start */
 footer {
     box-sizing: border-box;
     background-color: #f7f7f7;
@@ -514,5 +537,5 @@ footer {
     color: #000000;
     text-decoration: none;
 }
+/* footer styling finish */
 
-/* 176 */
