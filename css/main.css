@@ -220,13 +220,20 @@ header h1 {
     background-color: #f7f7f7;
 }
 
+#iphone-section {
+    display: flex;
+    width: 90%;
+    margin: 102px auto 0 auto;
+    justify-content: space-around;
+}
+
 #iphone-image {
+    box-sizing: border-box;
     display: flex;
     background-image: url('../img/iPhone_5s.png');
     width: 549px;
     height: 779px;
-    margin-top: 102px;
-    margin-left: 180px;
+    z-index: 100;
 }
 
 #iphone-image-screen {
@@ -246,11 +253,12 @@ header h1 {
 }
 
 #iphone-text {
+    z-index: 1;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
-    width: 543px;
-    margin-left: 118px;
     height: 760px;
+    max-width: 40%;
 }
 
 #iphone-text h1 {
