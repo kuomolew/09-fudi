@@ -24,19 +24,17 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
 }
 
 #logo {
-    margin-left: 181px;
     margin-top: -10px;
 }
 
 #log-in-menu {
     display: flex;
     margin-top: 42px;
-    margin-right: 210px;
 }
 
 #log-in-menu a {
