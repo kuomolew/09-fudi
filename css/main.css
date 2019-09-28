@@ -34,7 +34,7 @@ header {
 
 #log-in-menu {
     display: flex;
-    margin-top: 42px;
+    margin-top: 38px;
 }
 
 #log-in-menu a {
@@ -231,6 +231,7 @@ header h1 {
     background-image: url('../img/iPhone_5s.png');
     width: 549px;
     height: 779px;
+    overflow: hidden;
 }
 
 #iphone-image-screen {
