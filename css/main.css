@@ -231,7 +231,6 @@ header h1 {
     background-image: url('../img/iPhone_5s.png');
     width: 549px;
     height: 779px;
-    z-index: 100;
 }
 
 #iphone-image-screen {
@@ -251,7 +250,6 @@ header h1 {
 }
 
 #iphone-text {
-    z-index: 1;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
